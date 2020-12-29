@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-image: url("/img/bgPic2.jfif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* NAVBAR */
+.font{
+    font-size: 1.1rem;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color:  rgb(146, 252, 7);
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: rgb(6, 231, 36);
+    text-shadow: 1px 1px rgb(255, 255, 0);
+}
+.navbar-dark .navbar-nav .nav-link:active{
+    color: yellow;
+}
+.navbar-dark .navbar-nav .nav-link.active{
+    text-shadow: 1px 1px rgb(6, 231, 36);
+    color: yellow;
+}
+
+
+/* SLIDER */
+.slider{
+    width: 100%;
+    height: 80vh;
+}
+.slider-1{
+    background-image: url("/img/slider11.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slider-2{
+    background-image: url("/img/slider2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slider-3{
+    background-image: url("/img/slider3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.carousel-caption{
+    color: rgb(146, 252, 7);
+}
+.carousel-caption h5{
+    text-shadow: 1px 1px yellow;
+}
+
+
+/* Modern Business */
+.theme{
+    color:  rgb(115, 199, 5); 
+    text-shadow: 1px 1px 8px rgb(255, 255, 0);
+}
+.project{
+    text-decoration: none;
+    font-size: 2rem;
+}
+.card-header{
+    background: rgb(221,221,216);
+    background: linear-gradient(180deg, rgba(221,221,216,1) 0%, rgba(241,239,237,1) 100%);
+}
+/* Portfolio Heading  */
+
+.card-img-top{
+    width: 100%;
+    height: 10rem;
+}
+.card-title{
+    color: rgb(6, 231, 36);
+    margin: 0px;
+}
+.card-title:hover{
+    color: rgb(6, 231, 36);
+    text-shadow: 1px 1px rgb(255, 255, 0);
+}
+.card-title:active{
+    color: yellow;
+}
+/* FEATURES */
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.line{
+    border-bottom: 1px solid rgb(150, 150, 150);
+}
+/* LOGO */
+.logo{
+    background-image: url("/img/SMlogo2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 3rem;
+    height: 3rem;
+    border-bottom: .2rem solid  rgb(146, 252, 7);
+    transition: all .4s;
+    border-radius: .2rem;
+}
+.logo:hover{
+    background-image: url("/img/SMlogo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 3rem;
+    height: 3rem;
+    border-bottom: .2rem solid  rgb(146, 252, 7);
+    transition: all .4s;
+    border-radius: .2rem;
+}
+
+/* BUTON */
+
+.btn-custom{
+    background: rgb(254,251,8);
+    background: linear-gradient(0deg, rgba(254,251,8,1) 0%, rgba(246,190,2,0.804359243697479) 100%);
+    color: rgb(6, 231, 36);
+    font-weight: 700;
+    text-shadow: 1px 1px white;
+    border-radius: 10px;
+    border-bottom: 3px solid  rgb(170, 170, 170)
+}
+.btn-custom:hover{
+    color: rgb(170, 170, 170);
+    font-weight: 400;
+}
+
